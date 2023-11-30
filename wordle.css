@@ -1,0 +1,106 @@
+body {
+    font-family: Ariel, Helvetica, serif;
+    text-align: center;
+    background:#0e1111;
+    justify-content: center;
+}
+
+hr {
+    width: 500px;
+    height: 1px;
+    /* margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px; */
+    background-color: #353839;
+    border: none;
+}
+
+#title {
+    font-size: 33px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 0px;
+    margin-bottom: 17px;
+    margin-top: 17px;
+}
+
+#board {
+    width: 290px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#answer {
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    margin-top: 60px;
+}
+
+.tile {
+    /* Box */
+    border: 2px solid #353839;
+    width: 48px;
+    height: 49px;
+    margin: 2.5px;
+
+    /* Text */
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+    /* centers it on the vertical axis */
+    justify-content: center;
+    /* centers it on the horizontal axis */
+    align-items: center;
+}
+
+.correct {
+    background-color: #4F7942;
+    color: white;
+    border-color: #4F7942;
+}
+
+.present {
+    background-color: #C8b653;
+    color: white;
+    border-color: #C8b653;
+}
+
+.absent {
+    background-color: #353839;
+    color: white;
+    border-color: #353839;    
+}
+
+#keyboard {
+    width: 290px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.key {
+    /* Box */
+    border: none;
+    width: 40px;
+    height: 45px;
+    margin: 2.5px;
+
+    /* Text */
+    color: white;
+    font-size: 25px;
+    display: flex;
+    /* centers it on the vertical axis */
+    justify-content: center;
+    /* centers it on the horizontal axis */
+    align-items: center;
+}
