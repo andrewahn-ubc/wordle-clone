@@ -55,10 +55,11 @@ function initialize() {
     document.addEventListener("keyup", (e) => {
         if (gameOver) return;
 
+        document.getElementById("answer").innerText = "";
+
         // Checks whether the event e is within the bounds of KeyA and KeyZ, in which case it MUST be 
         // an alphabet letter.
         if ("KeyA" <= e.code && e.code <= "KeyZ") {
-            document.getElementById("answer").innerText = "";
             if (col < width) {
                 // The case where you're allowed to type within the same line.
                 let currTile = document.getElementById(row.toString() + "-" + col.toString());
