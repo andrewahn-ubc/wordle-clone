@@ -116,7 +116,7 @@ function update() {
     console.log(wordGuess);
 
     if (!guessList.includes(wordGuess)) {
-        document.getElementById("answer").innerText = "Not in word list.";
+        document.getElementById("answer").innerText = "Not in word list :(";
         return;
     }
     
@@ -159,7 +159,7 @@ function update() {
 
     if (correct == width) {
         gameOver = true;
-        document.getElementById("answer").innerText = "Wait, you're goated?";
+        document.getElementById("answer").innerText = "YOU'RE SO SMART AND PRETTY?!";
     }
 
     row++;
