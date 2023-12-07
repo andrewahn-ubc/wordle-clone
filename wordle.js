@@ -113,8 +113,6 @@ function update() {
 
     wordGuess = wordGuess.toLowerCase();
 
-    console.log(wordGuess);
-
     if (!guessList.includes(wordGuess)) {
         document.getElementById("answer").innerText = "Not in word list :(";
         return;
@@ -141,10 +139,6 @@ function update() {
             // This letter is not in the correct spot, and it is not present.
             currTile.classList.add("absent");
         }
-    }
-
-    for (let i = 0; i < lettersToGet.length; i++) {
-        console.log(lettersToGet[i]);
     }
 
     for (let c = 0; c < width; c++) {
