@@ -9,7 +9,7 @@
     </head>
 
     <body>
-        <h1 id="title">Wordle (for only smart and beautiful girls)</h1>
+        <h1 id="title">Wordle</h1>
         <hr>
 
         <div id="board"></div>
